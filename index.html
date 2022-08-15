@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>korya</title>
+        <link href="bootstrap.min.css" rel="stylesheet"/>
+        <link href="index.css" rel="stylesheet"/>
+    </head>
+    <body class="bg-dark">
+        <h1 class=" ms-3 mt-4 font1 text-secondary">Book Marker</h1>
+        <br>
+        <br>
+        <div class="parent">
+            <h2 class="text-center text-white">Bookmark your favorite sites</h2>
+        <form>
+            <div class="mx-5 my-5 parent1">
+                <label for="text1" class=" text-white"><h4 class="margin1">Site Name</h4></label>
+            <input type="text" class="form-control font100" id="text1" placeholder="Bookmarker Name" onblur="validName()" />
+            <div class="valid koryadis" id="validBookName">
+                <p>you must start the website name with capital letter</p>
+            </div>
+            <div id="audio1"></div>
+            </div>
+            <div class="mx-5 my-5 parent2">
+                <label for="text2" class="text-white"><h4 class="margin2"  >  Site URL</h4></label>
+                <input type="text" class="form-control font100" id="text2" placeholder="Website URL" onblur="validLink()" />
+                <div class="valid koryadis" id="validBookLink">
+                    <p>enter this form like "https://www.example.ex"</p>
+                </div>
+                <div id="audio2"></div>
+            </div>
+        </form>
+        <br>
+        <button class="btn btn-danger btn-lg margin3 " onclick="addProduct()">Submit</button>
+        <button onclick="clearProduct()" class="d-inline btn btn-danger btn-lg ms-4 hover1">ClearForm</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <input type="text" class="form-control font100 search margin100 display100 bg-black text-warning" onkeyup="searchProduct()" id="searchProduct" placeholder="Search......."/>
+        <br>
+        <br>
+        <table id="tableDesign" class="table table-dark table-striped my-5 ">
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        </div> 
+        
+        
+        
+        <script src="index.js"></script>
+    </body>
+</html>

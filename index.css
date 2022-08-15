@@ -1,0 +1,53 @@
+.font1{
+    font-size: 40;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.margin1{
+    margin-left: 700px;
+}
+.margin2{
+    margin-left: 710px;
+}
+.margin3{
+    margin-left: 650px;
+}
+.margin3:hover{
+    background-color: teal;
+    border-color:teal ;
+}
+body{
+    color: aliceblue;
+}
+table{
+    font-size: 35;
+}
+.koryadis{
+    display: none;
+}
+.hover1:hover{
+    background-color: teal;
+    border-color: teal;
+}
+.valid{
+    height: 50px;
+    background-color: antiquewhite;
+    color: black;
+    font-size: 27;
+    text-align: center;
+}
+.font100{
+    font-size: 22;
+}
+.koryadis2{
+    opacity: 0;
+}
+.search{
+    width: 500px;
+}
+.margin100{
+    margin-left: 520px;
+}
+.display100{
+    display: none;
+}
